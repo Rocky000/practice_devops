@@ -24,6 +24,8 @@ After succesfully running the code we can see the expected values from the follo
 
 # Step 3: Witre the Dockerfile for the APP
 Here I have create Dockerfile for the containerization for the APP, it can be found in the following path "./practice_devops/restapi_deploy/Dockerfile".
+Command to run the docker:
+$ docker run -p 8000:8000 -e API_KEY='api_key_of_3rd_party_soft' <image-name>:<tag>
 
 # Step 4: Created a terraform script for the Kubernetes EKS cluster deployment on AWS
 It can be found in the following path "./practice_devops/Eks_deploy_Terraform".
@@ -38,7 +40,7 @@ $ terraform destory //to destory anything created by this terraform script
 
 # Step 5: Create a Jenkins CD pipeline groovy script
 This script is used to build docker image and push it to docker registry, versioning of the image and deploy it on k8s cluster environments.
-
+for k8s deployment I could have used the added the helm chart for clear view of the task but unfortunately, couldn't due to some emergecies. 
 File path: "./practice_devops/restapi_deploy/pipelines/weather_data_cd.groovy"
 
 # System Design
