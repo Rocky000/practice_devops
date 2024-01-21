@@ -40,7 +40,7 @@ $ terraform destory //to destory anything created by this terraform script
 
 # Step 5: Create a Jenkins CD pipeline groovy script
 This script is used to build docker image and push it to docker registry, versioning of the image and deploy it on k8s cluster environments.
-for k8s deployment I could have used the added the helm chart for clear view of the task but unfortunately, couldn't due to some emergecies. 
+for k8s deployment I should have added the helm chart for clear view of the task but unfortunately, couldn't due to some emergecies. 
 File path: "./practice_devops/restapi_deploy/pipelines/weather_data_cd.groovy"
 
 # System Design
