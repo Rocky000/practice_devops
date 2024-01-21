@@ -35,7 +35,7 @@ pipeline {
                         println ("Getting branch name "+branchName)
                     }
                     else if( DEPLOY_TO == "dev"){
-                        branchName="development"
+                        branchName="main"
                         println ("Getting branch name "+branchName)
                     }else if (DEPLOY_TO == 'test' && BranchName.isEmpty() ){
                         println("you have empty release candidate name.Please put the release candidate branch name")
