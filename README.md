@@ -46,7 +46,7 @@ for k8s deployment I should have added the helm chart for clear view of the task
 -     File path: "./practice_devops/restapi_deploy/pipelines/weather_data_cd.groovy"
 
 # System Design
-The Solution of the Part: B is in the following patth 
+The Solution of the Part: B is in the following 
 -     File path:"./practice_devops/cloud_architecture_ecommerce_application.png".
 
 Here I have create design for e-commerce application which is suppose to handle 1 million requests.
